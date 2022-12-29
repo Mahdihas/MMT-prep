@@ -6,6 +6,8 @@ import SAT from '../../assest/SAT-Score-Report.png'
 import Teacher from '../../assest/Teacher_Student_Relationship.png'
 import Administration from './Administration'
 import Table from './Table'
+import OurTeamLead from './OurTeamLead'
+import Blog from './Blog'
 
 
 
@@ -92,8 +94,17 @@ Consistent, proven, drastic improvement<br className='block sm:hidden lg:block' 
         </div>
 
       </div>
+
+
       <Administration></Administration>
+
       <Table></Table>
+
+      <OurTeamLead></OurTeamLead>
+
+      <Blog></Blog>
+
+
     </>
   )
 }
