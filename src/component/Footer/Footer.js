@@ -84,9 +84,9 @@ admin@mmtprep.com</a>
           <div className="sm:flex">
           <div className="sm:w-[65%] grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
             <input type="text" placeholder="First Name" className="input bg-[#1E2833] text-white border-[1px] border-white rounded-full" />
-            <input type="text" placeholder="First Name" className="input bg-[#1E2833] text-white border-[1px] border-white rounded-full" />
+            <input type="text" placeholder="Last Name" className="input bg-[#1E2833] text-white border-[1px] border-white rounded-full" />
 
-            <input type="text" placeholder="First Name" className="input mt-5 md:mt-0 bg-[#1E2833] text-white border-[1px] border-white rounded-full" />
+            <input type="text" placeholder="Email" className="input mt-5 md:mt-0 bg-[#1E2833] text-white border-[1px] border-white rounded-full" />
             <button className='btn mt-5 xl:mt-0  rounded-full outline-none  hover:text-white hover:bg-[gray]  bg-white text-black capitalize   font-bold'>Subscribe</button>
 
 

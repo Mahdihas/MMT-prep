@@ -7,6 +7,7 @@ import Error from "../component/error/Error"
 import Home from "../component/Home/Home"
 import Program from "../component/Program/Program"
 import Resources from "../component/Resources/Resources"
+import Testmonial from "../component/testmonial/Testmonial"
 import Main from "../layout/Main"
 
 
@@ -54,7 +55,12 @@ import Main from "../layout/Main"
                 {
                     path: '/dashboard',
                     element:<Dashboard></Dashboard>
-                     },
+           },
+                
+           {
+            path: '/testmonial',
+            element:<Testmonial></Testmonial>
+             },
      
         ]
   }

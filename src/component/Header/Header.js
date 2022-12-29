@@ -50,6 +50,23 @@ const Header = () => {
               >
                Program  
               </NavLink>
+      </li>
+      
+
+      <li>
+              <NavLink
+                to='/testmonial'
+                aria-label='testmonial'
+                title='testmonial'
+                className={({ isActive }) =>
+
+                  isActive
+                    ? 'font-normal  tracking-wide capitalize text-[#191a1a] border-b-[1px] border-[#191a1a] transition-colors duration-200 hover:text-deep-purple-accent-400'
+                    : 'font-normal  tracking-wide capitalize text-[#595A62] transition-colors duration-200 hover:text-deep-purple-accent-400'
+                }
+              >
+               Testmonial  
+              </NavLink>
           </li>
           <li>
               <NavLink
