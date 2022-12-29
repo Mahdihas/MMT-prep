@@ -143,8 +143,8 @@ const Header = () => {
     <>
       
 
-    <div className='nav shadow-sm'>
-      <div className='px-4 py-6  lg:px-8'>
+    <div className='nav  shadow-sm'>
+      <div className='px-4  py-6  lg:px-8'>
         <div className='relative  flex items-center justify-between '>
         <Link
             to='/'
