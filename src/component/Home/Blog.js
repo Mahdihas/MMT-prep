@@ -1,4 +1,18 @@
-import React from 'react'
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+
+// import required modules
+import {Autoplay, Pagination, Navigation } from "swiper";
+
+import firstimg from '../../assest/firstimg.png'
+
 
 const Blog = () => {
   return (
@@ -23,7 +37,7 @@ const Blog = () => {
               
 
           </div>
-          <div className="sm:flex">
+          <div className="sm:flex pb-12">
           <div className="sm:w-[65%] grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2">
             <input type="text" placeholder="First Name" className="input bg-[#1E2833] text-white border-[1px] border-white rounded-full" />
             <input type="text" placeholder="First Name" className="input bg-[#1E2833] text-white border-[1px] border-white rounded-full" />
@@ -34,9 +48,40 @@ const Blog = () => {
 
           </div>
          
-         </div>
-          
+          </div>
+      <div className="">
+      <>
+      <Swiper
+        slidesPerView={3}
+        spaceBetween={30}
+        slidesPerGroup={3}
+            loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+        loopFillGroupWithBlank={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay,Pagination, Navigation]}
+        className="mySwiper"
+      >
+       
+            <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl pt-2">This is the news title.....</p> </SwiperSlide>
+      
+            <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl pt-2">This is the news title.....</p> </SwiperSlide>
 
+            <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl pt-2">This is the news title.....</p> </SwiperSlide>
+
+      </Swiper>
+    </>
+              
+
+          </div>
+          
+  
     </div>
   )
 }
