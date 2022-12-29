@@ -5,6 +5,7 @@ import main from '../../assest/main_1 1.png'
 import SAT from '../../assest/SAT-Score-Report.png'
 import Teacher from '../../assest/Teacher_Student_Relationship.png'
 import Administration from './Administration'
+import Table from './Table'
 
 
 
@@ -92,6 +93,7 @@ Consistent, proven, drastic improvement<br className='block sm:hidden lg:block' 
 
       </div>
       <Administration></Administration>
+      <Table></Table>
     </>
   )
 }
