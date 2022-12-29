@@ -4,6 +4,7 @@ import rectangle from '../../assest/Rectangle 167.png'
 import main from '../../assest/main_1 1.png'
 import SAT from '../../assest/SAT-Score-Report.png'
 import Teacher from '../../assest/Teacher_Student_Relationship.png'
+import Administration from './Administration'
 
 
 
@@ -90,6 +91,7 @@ Consistent, proven, drastic improvement<br className='block sm:hidden lg:block' 
         </div>
 
       </div>
+      <Administration></Administration>
     </>
   )
 }
