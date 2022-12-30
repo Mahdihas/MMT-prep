@@ -16,7 +16,7 @@ import firstimg from '../../assest/firstimg.png'
 
 const Blog = () => {
   return (
-      <div className='px-4 bg-[#0D1218] py-10'>
+      <div className='px-4 bg-[#0D1218] py-24'>
           <div className=" sm:flex justify-between">
               
 
@@ -50,33 +50,69 @@ const Blog = () => {
          
           </div>
       <div className="">
-      <>
+    
+        
+
+
+
+
+
+        <>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        slidesPerGroup={3}
-            loop={true}
+        slidesPerView={2}
+            spaceBetween={10}
             autoplay={{
               delay: 2500,
               disableOnInteraction: false,
             }}
-        loopFillGroupWithBlank={true}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay,Pagination, Navigation]}
-        className="mySwiper"
-      >
        
-            <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl pt-2">This is the news title.....</p> </SwiperSlide>
+            
+            
+            breakpoints={{
+          
+              
+       
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+        
+            }}
+          
+            navigation={true}
+            modules={[Autoplay,Pagination, Navigation]}
+            className="mySwiper"
+          >
       
-            <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl pt-2">This is the news title.....</p> </SwiperSlide>
+            <SwiperSlide>
+            <img className="w-full" src={firstimg} alt="" />
+              {/* <div className="flex justify-center items-center h-[218px] ">
+              <h1 className='text-2xl sm:text-5xl lg:text-[100px] text-black font-bold'>2022</h1>
+            </div> */}
 
-            <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl pt-2">This is the news title.....</p> </SwiperSlide>
+            </SwiperSlide>
 
+        <SwiperSlide><img className="w-full" src={firstimg} alt="" />  <p className="text-white text-1xl  pt-2">This is the news title.....</p> </SwiperSlide>
+        <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl  pt-2">This is the news title.....</p> </SwiperSlide>
+
+        <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl  pt-2">This is the news title.....</p> </SwiperSlide>
+
+        <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl  pt-2">This is the news title.....</p> </SwiperSlide>
+
+        <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl  pt-2">This is the news title.....</p> </SwiperSlide>
+        <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl  pt-2">This is the news title.....</p> </SwiperSlide>
+
+        <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl  pt-2">This is the news title.....</p> </SwiperSlide>
+
+        <SwiperSlide><img className="w-full" src={firstimg} alt="" /> <p className="text-white text-1xl  pt-2">This is the news title.....</p> </SwiperSlide>
+ 
       </Swiper>
-    </>
+        </>
+        
               
 
           </div>

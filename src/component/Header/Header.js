@@ -161,7 +161,7 @@ const Header = () => {
       
 
     <div className='nav  shadow-sm'>
-      <div className='px-4  py-6  lg:px-8'>
+      <div className='  py-6  pr-4'>
         <div className='relative  flex items-center justify-between '>
         <Link
             to='/'
@@ -206,8 +206,8 @@ const Header = () => {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className='absolute  top-0 left-0 w-full z-40'>
-                <div className='p-5 bg-[white] border rounded shadow-sm'>
+              <div className='absolute mx-auto bg-white  top-0 left-0 w-full z-40'>
+                <div className='p-5 bg-[white] mx-auto border rounded shadow-sm'>
                   <div className='flex items-center justify-between mb-4'>
                     <div>
                     <Link
@@ -240,7 +240,7 @@ const Header = () => {
                       </button>
                     </div>
                   </div>
-                  <nav>
+                  <nav className='pl-4'>
                   <ul className='spacey-4'>
            
                       
