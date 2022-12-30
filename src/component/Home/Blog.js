@@ -25,7 +25,7 @@ const Blog = () => {
               <p className='text-white font-semibold pb-4 pt-2 text-1xl'>Subscribe To MMT Newsletter, Attached with admissions secrets. </p>
               
               </div>
-              <div className="text-white">
+              <div className="text-white sm:pb-0 pb-10">
                   <p className='h1 border-b-[1px] px-12'>SAT / ACT</p>
                   <p className='h1 border-b-[1px] px-12'>News</p>
                   <p className='h1 border-b-[1px] px-12'>Tutoring</p>
