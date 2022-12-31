@@ -8,7 +8,7 @@ const OurTeamLead = () => {
   return (
       <div className='py-12 px-4'>
           
-          <h1 className='text-4xl text-black text-center font-bold pb-4  pt-8'>Our Team Leads.</h1>
+          <h1 className='text-4xl text-black text-center font-bold pb-10  pt-8'>Our Team Leads.</h1>
               
           
           <div className="grid grid-cols-1 mx-auto sm:grid-cols-2 gap-4  lg:grid-cols-4">

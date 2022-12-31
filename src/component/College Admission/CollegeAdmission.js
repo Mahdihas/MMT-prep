@@ -60,7 +60,7 @@ const CollegeAdmission = () => {
       
  
      </div>
-      <div className="py-12 bg-[#D9D9D9]">
+     <div className="py-24 bg-[#D9D9D9]">
  
    </div>
  

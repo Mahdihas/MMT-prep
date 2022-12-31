@@ -5,6 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import box2 from '../../assest/box2.png'
+import test20 from '../../assest/test2000.png'
+import test19 from '../../assest/test19.png'
+import test18 from '../../assest/test2018.png'
+import test17 from '../../assest/test2017.png'
+
+
 
 import box3 from '../../assest/box3.png'
 
@@ -12,6 +18,7 @@ import twenty1 from '../../assest/twenty1.png'
 
 import circle from '../../assest/circle.png'
 import Star from '../../assest/Star.png'
+import { BsArrowDownCircle,BsArrowDown } from "react-icons/bs";
 
 
 
@@ -21,6 +28,10 @@ import Star from '../../assest/Star.png'
 import { Autoplay } from "swiper";
 
 const Testmonial = () => {
+
+  const [show, setShow] = useState(false);
+
+
   return (
     <>
      <div className='px-4 py-10'>
@@ -132,6 +143,240 @@ const Testmonial = () => {
 
 </Swiper>
 </div>
+          </>
+          
+
+
+
+
+          <>
+            {show ?
+              <>
+              <div className="my-4 ">
+              <Swiper
+            slidesPerView={2}
+                spaceBetween={10}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+           
+                
+                
+                breakpoints={{
+              
+                  
+           
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+                  },
+                  1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 40,
+                  },
+            
+            }}
+            modules={[Autoplay]}
+            className="mySwiper"
+              >
+                <SwiperSlide className="h-full ">
+                    
+                    <img className="w-full bg-white h-full" src={test20} alt="" />
+                
+          
+                </SwiperSlide>
+          
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+          
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+          
+                  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+                  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+          
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+          
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+          
+          
+          </Swiper>
+                </div>
+                
+
+
+                <div className="my-4 bg-[#EEEEEE]">
+    <Swiper
+  slidesPerView={2}
+      spaceBetween={10}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+ 
+      
+      
+      breakpoints={{
+    
+        
+ 
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 40,
+        },
+  
+  }}
+  modules={[Autoplay]}
+  className="mySwiper"
+    >
+      <SwiperSlide className="h-full bg-[gray]">
+          
+          <img className="w-full bg-white h-full" src={test19} alt="" />
+      
+
+      </SwiperSlide>
+
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+
+        <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+
+
+</Swiper>
+                </div>
+                
+
+
+                <div className="my-4 ">
+              <Swiper
+            slidesPerView={2}
+                spaceBetween={10}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+           
+                
+                
+                breakpoints={{
+              
+                  
+           
+              768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+                  },
+                  1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 40,
+                  },
+            
+            }}
+            modules={[Autoplay]}
+            className="mySwiper"
+              >
+                <SwiperSlide className="h-full ">
+                    
+                    <img className="w-full bg-white h-full" src={test18} alt="" />
+                
+          
+                </SwiperSlide>
+          
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+          
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+          
+                  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+                  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+          
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+          
+            <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+          
+          
+          </Swiper>
+                </div>
+
+
+
+                <div className="my-4 bg-[#EEEEEE]">
+    <Swiper
+  slidesPerView={2}
+      spaceBetween={10}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+ 
+      
+      
+      breakpoints={{
+    
+        
+ 
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 40,
+        },
+  
+  }}
+  modules={[Autoplay]}
+  className="mySwiper"
+    >
+      <SwiperSlide className="h-full bg-[gray]">
+          
+          <img className="w-full bg-white h-full" src={test17} alt="" />
+      
+
+      </SwiperSlide>
+
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+
+        <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+
+  <SwiperSlide><img className="w-full" src={box2} alt="" /></SwiperSlide>
+
+
+</Swiper>
+                </div>
+              
+            </>
+            
+
+
+              
+              : null
+            }
+            <div className="flex justify-center">
+            <BsArrowDownCircle className="text-[50px]" onClick={()=>setShow(!show)}></BsArrowDownCircle>
+
+            </div>
 </>
 </div>
 
