@@ -234,9 +234,14 @@ SAT / ACT Test</h1>
 </div> 
 
 
+                </div>
+                
+              </div>
+              <div className="flex justify-center sm:justify-end">            <button className='btn bg-[#2A3543] rounded-sm px-12'>Submit</button>
 </div>
-</div>
+            
             </div>
+
             
 
 
