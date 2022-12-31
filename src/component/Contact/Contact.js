@@ -16,15 +16,15 @@ const Contact = () => {
                 <h1 className='text-5xl md:text-[100px] mb-10 text-black font-bold'>OFFERS</h1>
 
       </div>
-      <div className=" relative h-[700px] py-10 ">
+      <div className=" relative h-[500px] pt-10 sm:pb-0 pb-10 ">
       <div className="grid  bg-[#DEDFE1] grid-cols-1   sm:grid-cols-3 gap-4">
           
           <div className="flex visible justify-center   items-center py-5">
           
-            <div className="absolute top-14 left-5 sm:left-14   mx-auto man flex justify-center items-center  h-[600px]"><div className="bg-[white] rounded-lg shadow-2xl w-[90%] lg:py-0 py-12 h-auto lg:h-[350px]">
-              <div className="flex py-3  justify-around items-center">
-                <img src={oman} alt="" />
-              <h1 className='text-5xl md:text-[50px] mb-10 text-black font-bold'>FREE CONSULTATION</h1>
+            <div className="absolute top-0 sm:top-14 left-6 md:left-14   mx-auto man flex justify-center items-center  h-[500px]"><div className="bg-[white] rounded-lg shadow-2xl w-[90%] lg:py-0 py-12 h-auto lg:h-[350px]">
+              <div className="sm:flex justify-center py-3 mx-auto sm:justify-around items-center">
+              <div className="flex justify-center">                <img  src={oman} alt="" />   </div>
+                <h1 className='text-3xl text-center md:text-[50px] mb-10 text-black font-bold'>FREE CONSULTATION</h1>
                 
               </div>
               <div className="">
@@ -67,10 +67,10 @@ const Contact = () => {
           
           <div className="flex justify-center visibleb bg-[#C2C4C7] items-center py-5">
             
-          <div className="absolute top-14 left-5 sm:left-14  mx-auto book flex justify-center items-center  h-[600px]"><div className="bg-[white] rounded-lg shadow-2xl w-[90%] lg:py-0 py-12 h-auto lg:h-[350px]">
-              <div className="flex py-3  justify-around items-center">
-                <img src={obook} alt="" />
-              <h1 className='text-4xl md:text-[30px] mb-10 text-black font-bold'>Complementary  
+          <div className="absolute top-100 sm:top-14 left-6 md:left-14  mx-auto book flex justify-center items-center  h-[500px]"><div className="bg-[white] rounded-lg shadow-2xl w-[90%] lg:py-0 py-12 h-auto lg:h-[350px]">
+              <div className="sm:flex py-3  justify-around items-center">
+                  <div className="flex justify-center">                <img src={obook} alt="" /></div>
+                <h1 className='text-center text-4xl md:text-[30px] mb-10 text-black font-bold'>Complementary  
 SAT / ACT Test</h1>
                 
               </div>
@@ -98,10 +98,10 @@ SAT / ACT Test</h1>
           <div className="flex justify-center visiblei items-center py-5">
 
 
-          <div className="absolute top-14 left-5 sm:left-14  mx-auto icon flex justify-center items-center  h-[600px]"><div className="bg-[white] rounded-lg shadow-2xl w-[90%] h-auto lg:h-[350px]  lg:py-0 py-12">
-              <div className="flex py-3  justify-around items-center">
-                <img src={oicon} alt="" />
-              <h1 className='text-5xl md:text-[50px] mb-10 text-black font-bold'>Get $100 off a tutoring </h1>
+          <div className="absolute to-200 sm:top-14 left-6 md:left-14 mx-auto icon flex justify-center items-center  h-[500px]"><div className="bg-[white] rounded-lg shadow-2xl w-[90%] h-auto lg:h-[350px]  lg:py-0 py-12">
+              <div className="sm:flex py-3  justify-around items-center">
+                <div className="flex justify-center"><img src={oicon} alt="" /></div>
+                <h1 className='text-3xl  text-center md:text-[50px] mb-10 text-black font-bold'>Get $100 off a tutoring </h1>
                 
               </div>
               <div className="">
@@ -128,7 +128,7 @@ SAT / ACT Test</h1>
      
 
 
-      <div className="px-4 py-[150px]">
+      <div className="px-4   mt-[800px] sm:my-0">
             
 
 
@@ -168,7 +168,7 @@ SAT / ACT Test</h1>
       </div>
 
 
-      <div className="px-4">
+      <div className="px-4 pt-20">
 
         <div className="">
           <p className='px-2 pb-2 text-2xl font-bold text-[#6893F1]'>
