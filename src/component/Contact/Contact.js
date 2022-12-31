@@ -5,6 +5,7 @@ import obook from '../../assest/Books.png'
 import oicon from '../../assest/oicon.png'
 import oman from '../../assest/oman.png'
 import obox from '../../assest/obox.png'
+import './Contact.css'
 
 
 
@@ -14,24 +15,123 @@ const Contact = () => {
     <div className='px-4 py-8'>
                 <h1 className='text-5xl md:text-[100px] mb-10 text-black font-bold'>OFFERS</h1>
 
-    </div>
+      </div>
+      <div className=" relative h-[700px] py-10 ">
       <div className="grid  bg-[#DEDFE1] grid-cols-1   sm:grid-cols-3 gap-4">
           
-      <div className="flex justify-center   items-center py-5"><div className="bg-[white] rounded-2xl p-5 px-10 h-[280px] mx-auto "><div className="flex justify-center"><img src={oman} alt="" /></div><p className='pt-10 text-center font-bold text-1xl  text-black'>FREE CONSULTATION</p></div></div>
-      <div className="flex justify-center bg-[#C2C4C7] items-center py-5"><div className="bg-[white] rounded-2xl   px-8 p-5 h-[280px] mx-auto "><div className="flex justify-center"><img src={obook} alt="" /></div><p className='pt-10 text-center font-bold text-1xl text-black'>FREE COMPLEMENTARY  <br />
-SAT/ACT test</p></div></div>
+          <div className="flex visible justify-center   items-center py-5">
+          
+            <div className="absolute top-14 left-5 sm:left-14   mx-auto man flex justify-center items-center  h-[600px]"><div className="bg-[white] rounded-lg shadow-2xl w-[90%] lg:py-0 py-12 h-auto lg:h-[350px]">
+              <div className="flex py-3  justify-around items-center">
+                <img src={oman} alt="" />
+              <h1 className='text-5xl md:text-[50px] mb-10 text-black font-bold'>FREE CONSULTATION</h1>
+                
+              </div>
+              <div className="">
+              <p className='
+            px-14'>Wondering if there’s still time to impact the school year? Or which pathways or classes <br /> help increase your chances of getting into college? Explore how MMT prep can inspire <br /> and support your child to do great things. <br />
 
-      <div className="flex justify-center items-center py-5"><div className="bg-[white] rounded-2xl  h-[280px] p-5  px-8 mx-auto "><div className="flex justify-center"><img src={oicon} alt="" /></div><p className='pt-10 text-center font-bold text-1xl text-black'>Get $100 off a tutoring <br />
-program at MMT Prep</p></div></div>
+                </p>
+               
+                <ul className='px-12'>
+                  <li> Discuss your child’s personal needs and goals for the rest of the year with a manager.
+
+                  </li>
+                  <li>
+                  Explore how we make learning personal to your child.
+
+                  </li>
+                  <li>
+                  Ask any and all questions.
+
+                  </li>
+                  <li>
+
+                  Tour a center to see why kids love coming to MMT prep.
+
+                  </li>
+                </ul>
+              </div>
+            
+
+            
+            </div></div>
 
 
-   
-      
-      
+            <div className="bg-[white] rounded-2xl p-5 px-10 h-[280px] mx-auto ">
+              
+              <div className="flex justify-center "><img src={oman} alt="" /></div><p className='pt-10 text-center font-bold text-1xl  text-black'>FREE CONSULTATION</p></div></div>
+          
+          
+          
+          
+          <div className="flex justify-center visibleb bg-[#C2C4C7] items-center py-5">
+            
+          <div className="absolute top-14 left-5 sm:left-14  mx-auto book flex justify-center items-center  h-[600px]"><div className="bg-[white] rounded-lg shadow-2xl w-[90%] lg:py-0 py-12 h-auto lg:h-[350px]">
+              <div className="flex py-3  justify-around items-center">
+                <img src={obook} alt="" />
+              <h1 className='text-4xl md:text-[30px] mb-10 text-black font-bold'>Complementary  
+SAT / ACT Test</h1>
+                
+              </div>
+              <div className="">
+              <p className='
+            px-10'>Schedule a full-length practice SAT or ACT test. <br /> <br />
+
+            Taking a practice SAT or ACT test at MMT Prep is a great way to get familiar with the format, figure out your teen’s strengths and weaknesses, and pinpoint exactly where to focus to get the best results. And for a limited time, your child can take a full-length practice exam at MMT Prep for FREE. <br />
+            
+            Complete the form to the right to get started. A staff member from our center will give you a call and coordinate a time to take the practice test.
+            
+
+                </p>
+               
+            
+              </div>
+            
+
+            
+            </div></div>
+            
+            <div className="bg-[white] rounded-2xl   px-8 p-5 h-[280px] mx-auto "><div className="flex justify-center"><img src={obook} alt="" /></div><p className='pt-10 text-center font-bold text-1xl text-black'>FREE COMPLEMENTARY  <br />
+    SAT/ACT test</p></div></div>
+    
+          <div className="flex justify-center visiblei items-center py-5">
+
+
+          <div className="absolute top-14 left-5 sm:left-14  mx-auto icon flex justify-center items-center  h-[600px]"><div className="bg-[white] rounded-lg shadow-2xl w-[90%] h-auto lg:h-[350px]  lg:py-0 py-12">
+              <div className="flex py-3  justify-around items-center">
+                <img src={oicon} alt="" />
+              <h1 className='text-5xl md:text-[50px] mb-10 text-black font-bold'>Get $100 off a tutoring </h1>
+                
+              </div>
+              <div className="">
+              <p className='
+            px-14'>Did you know that students at MMT Prep typically see two to three times more growth in their math and reading scores once they come to our center? We deliver results! And right now, to help you get started, we’re offering $100 off any tutoring program available at MMT Prep. <br /> <br />
+
+            To receive your tutoring coupon, please tell us a little about yourself by completing the form above.
+            </p>
+              </div>
+            
+
+            
+            </div></div>
+            
+            <div className="bg-[white] rounded-2xl  h-[280px] p-5  px-8 mx-auto "><div className="flex justify-center"><img src={oicon} alt="" /></div><p className='pt-10 text-center font-bold text-1xl text-black'>Get $100 off a tutoring <br />
+    program at MMT Prep</p></div></div>
+    
+    
+       
+          
+          
+          </div>
       </div>
+     
 
 
       <div className="px-4 py-[150px]">
+            
+
+
       <h1 className='text-5xl md:text-[100px] capitalize mb-10 text-black font-bold'>We are Here</h1>
 
         <div className=" sm:flex  ">
